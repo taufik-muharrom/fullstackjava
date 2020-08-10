@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header {
+    height: 300px;
+    background-image: url(Header.png);
+    background-size: cover;
+}
+
+
+
+.container-menu {
+    float: right;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #00203FFF;   
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: cornsilk;
+    margin-left: 10px;
+    font-size: 20px;
+    }
+
+.navbar a:hover {
+    font-size: larger;
+    color: orange;
+    font-weight: bold;
+}
+.content {
+    padding: 10px;
+    width: 80%;
+    height: 680px;
+    background-color:white;
+    border : 2px solid black; 
+    
+    
+}
+
+.fotoprofil {
+    border-bottom: 4px solid orange;
+}
+
+.fotoprofil img {
+    border-radius: 50%;
+    float:left;
+    margin-right: 200px;
+    
+}
+
+.nama {
+    margin-top: 50px;
+     display: inline-block;
+     margin-bottom: 10px;
+}
+
+.nama p{
+    font-size: 50x;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+
+}
+
+
+.centercontent {
+    display: inline-block;
+    border-left : 4px solid orange;
+    border-right : 4px solid orange;
+    border-bottom : 4px solid orange;
+    padding: 20px;
+
+}
+
+.centercontent p{
+    padding-top:10px;
+    margin-bottom: 10px;
+}
+
+.education{
+    margin-bottom: 20px;
+}
+
+.skill li{
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.software li{
+    margin-bottom: 10px;
+}
+
+.experience {
+    padding: 10px;
+   float: right; 
+    margin-bottom: 20px;
+}
+
+.ex1 {
+    margin-bottom: 30px;
+}
+.ex1 li{
+    margin-bottom: 20px;
+}
+
+.ex1 h3 {
+    margin-bottom: 10px;
+}
+.ex1 h4 {
+    margin-bottom: 20px;
+}
+
+.ex1 p {
+    margin-bottom: 10px;
+}
+
+.ex2 h3 {
+    margin-bottom: 10px;
+}
+.ex2 h4 {
+    margin-bottom: 20px;
+}
+
+.ex2 p {
+    margin-bottom: 10px;
+}
+

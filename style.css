@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header {
+    height: 300px;
+    background-image: url(Header.png);
+    background-size: cover;
+}
+
+
+
+.container-menu {
+    float: right;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #00203FFF;   
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: cornsilk;
+    margin-left: 10px;
+    font-size: 20px;
+    }
+
+.navbar a:hover {
+    font-size: larger;
+    color: orange;
+    font-weight: bold;
+}
+
+.content {
+    padding-top:50px;
+    text-align: center;
+}
+
