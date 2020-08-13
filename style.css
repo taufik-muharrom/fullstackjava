@@ -1,0 +1,180 @@
+body{
+    font-family: 'Quicksand';
+    scroll-behavior: smooth;
+}
+
+.section-padding{
+    padding: 60px 0;
+}
+
+.section-header{
+    padding-bottom: 30px;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.nav-area{
+    background: #23292A;
+}
+
+.navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    color:#fff !important;
+    font-weight: bold;
+}
+
+.nav-item{
+    color :#fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+/*slider area*/
+
+.slider-area{
+    background-image: url(/img/banner.jpg);
+    -webkit-bakground-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color:#fff;
+    position: relative;
+}
+
+.slider-area:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: linear-gradient(360deg,#000,transparent);
+
+}
+
+.slider-text h1{
+    font-size:45px;
+    font-weight:bold;
+}
+
+.slider-text{
+    text-align:left;
+    padding-top: 20%;
+}
+
+.section-header p{
+    text-align: center;
+}
+/*about area*/
+.about-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+}
+
+.section-header p{
+    text-align: justify;
+}
+.about-img h4{
+    text-align: center;
+}
+
+.about-img{
+    margin-bottom: -20px;
+}
+
+/*Skill Area*/
+
+.skill .bar{
+    height: 30px;
+    background-color: white;
+    border:1px solid #2A6066;
+    margin: 5px 0 20px 0;
+}
+
+.bar .nilai{
+    height: 30px;
+    background-color:#23292A;
+    display: inline-block;
+    color : #fafafa;
+    text-align: center;
+}
+
+.react {
+    width: 90%;
+}
+
+.reactn{
+    width: 70%;
+}
+
+.java , .fb{
+    width: 80%;
+}
+
+.boot{
+    width: 75%;
+}
+
+/*project area*/
+.col-4{
+    width:25%;
+    box-sizing:border-box;
+    padding:5px;
+    float : left;
+    text-align:center;
+    margin-bottom: 15px;
+}
+
+.col-4 img{
+    width:100%;
+}
+
+.col-4 a:hover img{
+    transform: scale(1.2);
+}
+
+
+/* Contact Area */
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+/* Footer Area */
+
+.footer-area{
+    background: #23292A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#about::before {
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
+}
