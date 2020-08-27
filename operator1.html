@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/operator1.js" defer></script>
+    <link rel="stylesheet" href="./css/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <title>Operator 1</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- header -->
+    <div class="header">
+      <div class="judul">
+        <h1>DASHBOARD OPERATOR 1</h1>
+      </div>
+      <div class="login_button">
+        <button onclick="document.location='./login.html'">LOG OUT</button>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+
+    <!-- left side -->
+      <div class="boxleft2">
+        <div class="judul">
+          <h2>INCOME</h2>
+          <h3 id="date_today"></h3>
+        </div>
+          <div class="operator1">
+            <h3>Operator 1</h3>
+            <h4 id="income_op1"></h4>
+          </div>      
+      </div>
+
+    <!-- right side -->
+
+      <div class="boxright"> 
+        
+        <table id=customers style="overflow-x:auto;">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Date</th>
+              <th>Vehicle</th>
+              <th>License Plate</th>
+              <th>In</th>
+              <th>Out</th>
+              <th>Income</th>
+            </tr>
+          </thead>
+          <tbody id="data_op1">
+            
+        </tbody>
+            
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>

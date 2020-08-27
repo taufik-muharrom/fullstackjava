@@ -1,0 +1,36 @@
+body , html{
+  margin: 0;
+  padding: 0;
+  height : 100%;
+  
+}
+
+.bg {  
+  background-image: url("../img/park.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:#819188;
+  background-blend-mode: screen;
+}
+
+#container_form{
+  width: 500px;
+  height: 400px;
+  border : 2px solid grey ;
+  border-radius: 10%;
+}
+#login .container #login-row #login-column #login-box {
+  height: 350px;
+  border: 1px solid #9C9C9C;
+  background-color: rgba(192, 192, 192, 0.8);
+  border-radius: 2%;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -60px;
+}
+

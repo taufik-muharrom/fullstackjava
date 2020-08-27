@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+    height:60px;
+    width:100%;
+    background-color:  #305A72;
+    display: flex;
+    align-items: center;
+}
+
+.header .tombol{
+
+   width :10%;
+}
+
+.header .judul{
+    margin-left:540px;
+    width :90%;
+ }
+
+h1{
+    font-size: 27px;
+    color: white;
+}
+
+
+
+.content{
+    display :flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center
+}
+
+/* left side */
+
+.boxleft {
+    height: 270px;
+    width: 300px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+    border: 6px solid #305A72;
+    border-radius: 5px;
+    background-color:#ADF3FF;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.boxleft2 h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.boxleft2 {
+    height: 200px;
+    width: 300px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+    border: 6px solid #305A72;
+    border-radius: 5px;
+    background-color:#ADF3FF;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.boxleft h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+input[type=text],[type=number], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color:#305A72;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+
+  
+
+  /* right side */
+
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:  #305A72;
+    color: white;
+  }
+
+  button a{
+      text-decoration: none;
+      color : black;
+  }
+
+.tombolnext{
+    display :flex;
+    align-items: center;
+    justify-content: center
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    font-size : 12px;
+}
+
+
+ 
