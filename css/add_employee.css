@@ -1,0 +1,125 @@
+body , html{
+  margin: 0;
+  padding: 0;  
+}
+
+.bg {
+  background-image: url("/img/xperia2.jpg");
+  background-color:#819188;
+  background-blend-mode: screen;
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-nav li{
+    margin-left :10px;
+    margin-right:30px;
+    text-align: center;
+  }
+
+  .nav-item a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color : black;
+  }
+
+  #logout_button{
+    width:50px;
+    height:33px;
+    padding:0 !important;
+  }
+
+  #logout_button p{
+    font-size: 13px;
+  }
+
+  .required-field {
+    color: red;
+}
+
+  .navbar-brand h3{
+    margin : auto;
+  }
+
+  .container-navbar{ 
+    margin: auto;
+  }
+
+  .containerform{
+  padding : 20px 30px;
+  width : 60%;
+  margin: auto;
+  
+}
+
+.containerdepartment{
+  padding-top:20px;
+  width : 70%;
+  margin: auto;
+}
+
+.containerdeparttable{
+  padding-top:20px;
+  width : 42%;
+  margin: auto;
+}
+
+.containertable{
+  padding-top:20px;
+  width : 95%;
+  margin: auto;
+}
+
+.containerdesignation{
+  padding-top:20px;
+  width : 55%;
+  margin: auto;
+}
+
+.alert{
+  text-align: center;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-header-extended {
+  padding : 10px;
+}
+
+#member_search .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#member_search {
+  width: 250px;
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #fff,
+  0 10px 15px #ebebeb inset;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.info-table-header-block{
+  padding-bottom: 10px;
+  display:flex;
+  justify-content: flex-end;
+}
+
+table.table-bordered > thead > tr > th{
+  border:2px solid grey;
+}
+
+table.table-bordered > tbody > tr > td{
+  border:1px solid grey;
+}
+
+
+

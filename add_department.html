@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/add_employee.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+   
+    <title>HRD Department</title>
+  </head>
+  <body>
+   
+        <!-- Navbar Area -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg">        
+      <div class="container-navbar">
+        <div class="page-header-extended">
+          <h3 class="page-title">Human Resources Management</h3>
+        </div>          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="add_employees.html">Add New Employee</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data_employees.html">Table Employee</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="add_department.html">Add New Department</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data_department.html">Table Department</a>
+                </li>
+                <li class="nav-item" id="logout">
+                  <button type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#quitModal" id="logout_button">
+                    <img src="./img/signout.png" width="20px" height="20px"/>
+                  </button>  
+                </li>                    
+            </div>
+      </div>
+  </nav>
+
+
+  <!-- Content Area -->
+  <div class="containerform">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title" id="addnewModalTitle">Insert New Department</h4>
+          </div>
+  
+          <!-- Form Insert Employee -->
+  
+          <div class="modal-body bg-light">
+              <form id="input_form" onsubmit="event.preventDefault(); checkCondition();">
+                  <div class="form-group">
+                      <label for="full_name">Department
+                          <span class="required-field">*</span>
+                      </label>
+                      <input type="text" class="form-control" placeholder="Enter New Department" id="add_department" required autofocus/>
+                  </div>
+                  <div class="form-action-buttons">
+                      <button type="submit" id='submit' class="btn btn-primary">Create</button>
+                      <button type="reset" class="btn btn-secondary">Cancel</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+    </div>
+
+     <!-- Quit Confirmation -->
+
+     <div id="quitModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Warning!</h4>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure to quit?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal" onclick="window.location.href='index.html'">Yes</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Main JavaScript -->
+    <script src="js/add_department.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
