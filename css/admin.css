@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+  height:60px;
+  width:100%;
+  background-color:  #305A72;
+  display: flex;
+  align-items: center;
+}
+
+.header .tombol{
+
+ width :10%;
+}
+
+.header .judul{
+  margin-left:540px;
+  width :90%;
+}
+
+h1{
+  margin: 0;
+  font-size: 27px;
+  color: white;
+}
+
+
+.content{
+  display: flex;
+  padding: 20px;
+}
+
+/* left side */
+
+.boxleft {
+  height: 350px;
+  width: 20%; 
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #305A72;
+  border-radius: 5px;
+  background-color:#ADF3FF;
+  padding: 20px;
+  
+}
+
+.boxleft2 {
+  height: 200px;
+  width: 20%; 
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #305A72;
+  border-radius: 5px;
+  background-color:#ADF3FF;
+  padding: 20px;
+  
+}
+
+.judul h2,h3,h4{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+input[type=text],[type=number], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=button] {
+  background-color:#305A72;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* right side */
+
+
+.boxright {
+  height: 100%;
+  width: 80%;
+  background-color: #CFF8FF ;
+  margin-left: 15px;
+  border: 3px solid #305A72;
+  border-radius: 5px;
+  background-color:#ADF3FF;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  
+  }
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color:  #305A72;
+  color: white;
+}
+
+
+
+button{
+  height: 30px;
+  width: 60px;
+  font-size : 12px;
+}
+
+.judul{
+  margin-bottom:20px;
+}
+.operator1{
+  width: 200px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border:1px solid grey;
+  border-radius: 5%;
+  margin:auto;
+  margin-bottom: 30px;
+}
+
+.operator1 h3{
+  padding :20px 20px 0px 20px;
+}
+
+.operator2{
+  width: 200px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border:1px solid grey;
+  border-radius: 5%;
+  margin:auto;
+}
+
+.operator2 h3{
+  padding :20px 20px 0px 20px;
+}
+
