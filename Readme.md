@@ -1,7 +1,5 @@
 # Pemesanan Tiket Bioksop (Online)
 
-### Alur pemebelian tiket secara online
-
 ### Entitas
 1. Pemesan Tiket
 2. Film
