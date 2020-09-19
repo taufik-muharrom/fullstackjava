@@ -1,9 +1,5 @@
 ### Login and Simple CRUD Flat List
 
-# Password
-email :admin@admin.com
-pass : 12345
-
 # Content Crud
 Login => Contact
 
